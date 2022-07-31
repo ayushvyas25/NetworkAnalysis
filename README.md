@@ -1,5 +1,5 @@
 # NetworkAnalysis
-Network Analysis on Street network using OSMNx
+Network Analysis on Street network using OSMNx(https://github.com/gboeing/osmnx)
 
 Here in this case study, we are going to analyze three cities, Oshawa, Toronto, and Paris. Two cities in Canada and one city in Europe to compare the empirical statistics of these three different metropolises. These research sites are tiny yet do not correspond to complete neighbourhood boundary definitions, although they are valuable for visual comparisons among sites at quite a local scale. After that, with the help of the OpenStreetMap Network (OSMNx) module, a drivable street network of Oshawa, Toronto, and Paris is downloaded.
 The network that is generated has nodes that needed to simplify, it is performed using the "simplify_graph" command in the OSMNx module. Even for outlying junctions where there are no roadways, because of the restricted parameters, it provides insights into the right amount of streets radiating from each node. Some nodes in this first network seem to b centrally placed among the street segment and would have been removed during the simplification process. OpenStreetMap has rightly retained the real crossings they merely cross a street that links to a node beyond the boundary of the restricted parameter.
